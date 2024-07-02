@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+<head>
+	<title>Meu site</title>
+	<style>
+		body {
+            font-family: 'Ubuntu'; 
+            
+			background-color: white;
+		}
+		header {
+			background-color: rgb(11, 11, 32);
+			color: white;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 20px;
+		}
+		header img {
+			height: 50px;
+			margin-right: 20px;
+		}
+		header a {
+			color: white;
+			margin-left: 20px;
+			text-decoration: none;
+		}
+		.styled-table {
+      margin: auto;
+			margin-top: 50px;
+			text-align: center;
+  min-width: 400px; 
+  border-collapse: collapse;
+
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+ 
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.button {
+      margin-right: 0px;
+      padding: 10px 30px;
+      border: 0;
+      background-color: rgb(11, 11, 32);
+      color: #ffffff;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+  
+}
+  /* Estilo para mudar a cor do botão quando o mouse passa por cima */
+  .button:hover {
+      background-color: #ff4500;
+    }
+		
+        .search {
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .search input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            margin-right: 10px;
+        }
+        .search button {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #009879;
+            color: white;
+            cursor: pointer;
+        }
+        .search button:hover {
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+        }
+     
+        .search-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+          /* Estilo para o rodapé */
+          footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      background-color: #f2f2f2;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    footer img {
+			height: 80px;
+    }
+	</style>
+</head>
+<body>
+	<header>
+		<img src="logo.png" alt="Logo">
+		<div class="links">
+      <a href="" class="button"><img src="home.png"  style="max-widht:32px; max-height:32px;">Inicio</a>
+      <a href="" class="button"><img src="ajuda.png"  style="max-widht:32px; max-height:32px;">Ajuda</a>
+      <a href="" class="button"><img src="sair.png"  style="max-widht:32px; max-height:32px;">Sair</a>
+		</div>
+	</header>
+  <div class="search-container">
+    <div class="search">
+      <input type="text" placeholder="Digite aqui para buscar">
+      <button>Buscar</button>
+    </div>
+  </div>
+    <table class="styled-table">
+        <thead>
+            <tr>
+              <th>Código</th>
+              <th>Descrição</th>
+              <th>Categoria</th>
+              <th>Linha</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>83960</td>
+              <td>ARBO DES ANTIT AER 75ML V9</td>
+              <td>DESODORANTES	</td>
+              <td>ARBO</td>
+            </tr>
+            <tr>
+              <td>45557</td>
+              <td>BOTI APONTADOR CHUMBO</td>
+              <td>ACESSÓRIOS</td>
+              <td>BOTI</td>
+            </tr>
+            <tr>
+              <td>49014</td>
+              <td>ACCORDES CREM DES HID CPO 200ML V2</td>
+              <td>CUIDADOS COM A PELE</td>
+              <td>ACCORDES</td>
+          
+            </tr>
+            <tr>
+              <td>49014</td>
+              <td>ACCORDES CREM DES HID CPO 200ML V2</td>
+              <td>CUIDADOS COM A PELE</td>
+              <td>ACCORDES</td>
+          
+            </tr>
+            <tr>
+              <td>51805</td>
+              <td>BOTI BABY CR REPAR 30ML</td>
+              <td>INFANTIL</td>
+              <td>BOTIBABY</td>
+          
+            </tr>
+            <tr>
+              <td>83550</td>
+              <td>BOTIK SRUM ALT/POT RETIN PURO 30ML</td>
+              <td>CUIDADOS FACIAIS</td>
+              <td>BOTIK</td>
+          
+            </tr>
+            <tr>
+              <td>83081</td>
+              <td>CAPRICHO DES COL HELLO STARS 50ML</td>
+              <td>PERFUMARIA</td>
+              <td>CAPRICHO</td>
+          
+            </tr>
+            <tr>
+              <td>48100</td>
+              <td>CBEM COND FEIRA BANANA 170ML</td>
+              <td>CABELOS</td>
+              <td>CUIDESEBEM</td>
+          
+            </tr>
+            <tr>
+              <td>52050</td>
+              <td>CELEBRE LOC DES HID CPO AGORA 200ML</td>
+              <td>CUIDADOS COM A PELE</td>
+              <td>CELEBRE</td>
+    
+          
+            </tr>
+        </tbody>
+    </table>
+		
+		
+	</div>
+  <footer>
+    <img src="logos1.png" alt="Logo">
+  </footer>
+</body>
+</html>
